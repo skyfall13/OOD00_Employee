@@ -14,7 +14,7 @@ Employee::Employee(int _empId, char* _name, char* _address) : empId(_empId) {
 	strcpy(address, _address);
 }
 
-void Employee::EmployeePrint() 
+void Employee::Print() 
 {
 	cout << "사원번호: " << empId << endl;
 	cout << "사원이름: " << name << endl;
