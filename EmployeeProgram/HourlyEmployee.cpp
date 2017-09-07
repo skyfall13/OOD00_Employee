@@ -4,3 +4,8 @@
 #include "SalariedEmployee.h"
 
 using namespace std;
+
+void HourlyEmployee::hourRate()
+{
+
+}
