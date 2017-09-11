@@ -28,7 +28,6 @@ int main(int argc, char* argv[])
 		usage(argv[0]);
 	}
 		
-
 	empId = atoi(argv[1]);
 	name = argv[2];
 	address = argv[3];
@@ -54,6 +53,7 @@ int main(int argc, char* argv[])
 	{
 	case 'S':
 	case 's':
+		/*월급직원 명령어 출력부*/
 		cout << "AddEmp" << " ";
 		for (int i = 1; i < 6; i++) {
 			cout << argv[i] << " ";
@@ -68,6 +68,7 @@ int main(int argc, char* argv[])
 	
 	case 'H':
 	case 'h':
+		/*시간제직원 명령어 출력부*/
 		cout << "AddEmp" << " ";
 		for (int i = 1; i < 6; i++) {
 			cout << argv[i] << " ";
@@ -82,6 +83,7 @@ int main(int argc, char* argv[])
 	
 	case 'C':
 	case 'c':
+		/*판매직원 명령어 출력부*/
 		cout << "AddEmp" << " ";
 		for (int i = 1; i < 8; i++) {
 			cout << argv[i] << " ";

@@ -9,7 +9,6 @@ using namespace std;
 CommissionedEmployee::CommissionedEmployee(int empId, char* name, char* address, int _salaryRate, float _commissionRate, int _sales) :Employee(empId, name, address),commissionRate(_commissionRate),salaryRate(_salaryRate),sales(_sales)
 {
 	totalSalary = CommissionedEmployee::salaryRateCalc();
-	//totalSalary = CommissionedEmployee::salaryRateCalc(salaryRate,commissionRate,sales);
 }
 
 float CommissionedEmployee::salaryRateCalc() 
@@ -18,13 +17,6 @@ float CommissionedEmployee::salaryRateCalc()
 	result = salaryRate + (sales * commissionRate);
 	return result;
 }
-//
-//float CommissionedEmployee::salaryRateCalc(int salaryRate, float commissionRate,int sales)
-//{
-//	float result = 0.0;
-//	result = salaryRate + (sales * commissionRate);
-//	return result;
-//}
 
 void CommissionedEmployee::Print()
 {
