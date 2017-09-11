@@ -1,0 +1,5 @@
+﻿  EmployeeMain.cpp
+c:\users\cse kim pc\documents\ood1_c++_git\chapter0_test\employeeprogram\employeeprogram\employeemain.cpp(44): warning C4244: '=': 'double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\cse kim pc\documents\ood1_c++_git\chapter0_test\employeeprogram\employeeprogram\employeemain.cpp(50): warning C4244: '=': 'double'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  EmployeeProgram.vcxproj -> C:\Users\CSE KIM PC\Documents\ood1_c++_git\chapter0_test\EmployeeProgram\Debug\EmployeeProgram.exe
+  EmployeeProgram.vcxproj -> C:\Users\CSE KIM PC\Documents\ood1_c++_git\chapter0_test\EmployeeProgram\Debug\EmployeeProgram.pdb (Full PDB)
