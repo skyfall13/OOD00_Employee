@@ -6,6 +6,7 @@
 #include "SalariedEmployee.h"
 
 using namespace std;
+
 Employee::Employee(int _empId, char* _name, char* _address) : empId(_empId) {
 	name = new char[sizeof(_name) + 1];
 	address = new char[sizeof(_address) + 1];

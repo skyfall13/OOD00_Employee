@@ -53,7 +53,6 @@ private:
 public:
 	CommissionedEmployee(int empId, char* name, char* address, int _salaryRate, float _commissionRate, int _sales);
 	float salaryRateCalc();
-	//float salaryRateCalc(int salaryRate, float commissionRate, int sales);
 	void Print();
 };
 
